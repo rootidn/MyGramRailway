@@ -3,17 +3,16 @@ Final Project Golang DTS 2024 x Hacktive 8
 
 MyGram : An app to store photos and ideas through comments
 
-Run program
-----------------------
 
-```
-$go run main.go
-```
+*This code is deployed vesion on Railway (not checked again after deployment)
 
-Endpoint
+*The code tested on local can be found [here](https://github.com/rootidn/MyGram)
+
+
+Public API URL
 ----------------------
 ```
-http://localhost:8080
+https://mygramrailway-production.up.railway.app
 ```
 
 Info
