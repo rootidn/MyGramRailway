@@ -3,6 +3,7 @@ package main
 import (
 	"mygram/database"
 	"mygram/routers"
+	"os"
 
 	"github.com/joho/godotenv"
 )
@@ -11,5 +12,5 @@ func main() {
 	godotenv.Load()
 	database.StartDB()
 	r := routers.StartApp()
-	r.Run(":8080")
+	r.Run(os.Getenv("PORT"))
 }
