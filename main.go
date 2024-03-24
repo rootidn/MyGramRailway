@@ -12,5 +12,5 @@ func main() {
 	godotenv.Load()
 	database.StartDB()
 	r := routers.StartApp()
-	r.Run(os.Getenv("PORT"))
+	r.Run(":" + os.Getenv("PORT"))
 }
